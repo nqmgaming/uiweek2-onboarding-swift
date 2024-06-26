@@ -16,6 +16,7 @@
 		48E4637D2C2A7B2D00F9725C /* Button+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48E4637C2C2A7B2D00F9725C /* Button+Extension.swift */; };
 		48E4637F2C2A81D100F9725C /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48E4637E2C2A81D100F9725C /* HomeViewController.swift */; };
 		48E463842C2B926D00F9725C /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48E463832C2B926D00F9725C /* LoginViewController.swift */; };
+		48E463872C2BBB2400F9725C /* PaddedTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48E463862C2BBB2400F9725C /* PaddedTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		48E4637C2C2A7B2D00F9725C /* Button+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Button+Extension.swift"; sourceTree = "<group>"; };
 		48E4637E2C2A81D100F9725C /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		48E463832C2B926D00F9725C /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		48E463862C2BBB2400F9725C /* PaddedTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaddedTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 		484DE0B02C29CC9400BDCBE4 /* Onboarding */ = {
 			isa = PBXGroup;
 			children = (
+				48E463852C2BBB0F00F9725C /* Utils */,
 				48E463822C2B924000F9725C /* Extensions */,
 				48E463812C2B922700F9725C /* Core */,
 				48E463802C2B920E00F9725C /* ViewControllers */,
@@ -98,6 +101,14 @@
 				48E4637C2C2A7B2D00F9725C /* Button+Extension.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		48E463852C2BBB0F00F9725C /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				48E463862C2BBB2400F9725C /* PaddedTextField.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -173,6 +184,7 @@
 				48E463842C2B926D00F9725C /* LoginViewController.swift in Sources */,
 				484DE0B62C29CC9400BDCBE4 /* ViewController.swift in Sources */,
 				48E4637D2C2A7B2D00F9725C /* Button+Extension.swift in Sources */,
+				48E463872C2BBB2400F9725C /* PaddedTextField.swift in Sources */,
 				48E463792C2A693200F9725C /* OnboardingViewController.swift in Sources */,
 				484DE0B22C29CC9400BDCBE4 /* AppDelegate.swift in Sources */,
 				48E4637B2C2A7A1900F9725C /* SceneDelegate.swift in Sources */,

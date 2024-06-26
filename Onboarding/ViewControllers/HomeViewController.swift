@@ -34,7 +34,9 @@ extension HomeViewController {
     func setup(){}
     func style(){
         circleView.translatesAutoresizingMaskIntoConstraints = false
-        circleView.layer.cornerRadius = 170
+        circleView.clipsToBounds = true
+        circleView.layer.cornerRadius = view.frame.width / 2.35
+        circleView.layer.masksToBounds = true
         circleView.layer.borderWidth = 6
         circleView.layer.borderColor = UIColor.main.cgColor
 

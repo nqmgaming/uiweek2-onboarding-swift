@@ -209,7 +209,7 @@ extension ViewController {
     @objc func startButtonTapped(_ sender: UIButton) {
         // navigate to the next screen
 
-        let homeViewController = HomeViewController()
+        let homeViewController = LoginViewController()
         let navigationController = UINavigationController(rootViewController: homeViewController)
         navigationController.modalPresentationStyle = .fullScreen
         present(navigationController, animated: true, completion: nil)
